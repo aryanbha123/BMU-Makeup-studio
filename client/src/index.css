@@ -6,6 +6,15 @@
 @tailwind base;
 
 
-body{
+body {
     background: #f7f7f7;
 }
+
+#my-map-display img.text-marker {
+    max-width: none !important;
+    background: none !important;
+}
+
+/* img {
+    max-width: none
+} */
