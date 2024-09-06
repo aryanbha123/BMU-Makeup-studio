@@ -8,7 +8,7 @@ export default function Service() {
             <div className="relative w-full h-[320px]" id="home">
                 <div className="absolute inset-0 opacity-70">
                     <img
-                        src="https://image1.jdomni.in/banner/13062021/0A/52/CC/1AF5FC422867D96E06C4B7BD69_1623557926542.png"
+                        src="https://t4.ftcdn.net/jpg/02/10/45/95/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg" 
                         alt="Background Image"
                         className="object-cover object-center w-full h-full"
                     />
@@ -16,10 +16,10 @@ export default function Service() {
                 <div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between">
                     <div className="md:w-1/2 mb-4 md:mb-0">
                         <h1 className="text-gray-700 font-medium text-4xl md:text-5xl leading-tight mb-2">
-                            Bappa Flour Mill
+                            BMU Makeup Studio & Academy
                         </h1>
                         <p className="font-regular text-xl mb-8 mt-4">
-                            One stop solution for flour grinding services
+                            Your destination for professional makeup services and education
                         </p>
                         <a
                             href="#contactUs"
@@ -42,16 +42,16 @@ export default function Service() {
                         {/* Service Card 1 */}
                         <div className="bg-white rounded-lg shadow-md overflow-hidden">
                             <img
-                                src="https://image3.jdomni.in/banner/13062021/42/5C/B1/45AC18B7F8EE562BC3DDB95D34_1623559815667.png?output-format=webp"
-                                alt="Wheat Flour Grinding"
+                                src="https://example.com/path-to-service1.png"
+                                alt="Bridal Makeup"
                                 className="w-full h-64 object-cover"
                             />
                             <div className="p-6 text-center">
                                 <h3 className="text-xl font-medium text-gray-800 mb-2">
-                                    Wheat Flour Grinding
+                                    Bridal Makeup
                                 </h3>
                                 <p className="text-gray-700 text-base">
-                                    Our wheat flour grinding service provides fresh, high-quality flour to businesses and individuals in the area. We use state-of-the-art equipment to grind wheat into flour, and we offer a variety of flours to meet the needs of our customers.
+                                    We offer professional bridal makeup services to help you look stunning on your special day. Our expert artists ensure the perfect blend of elegance and style.
                                 </p>
                             </div>
                         </div>
@@ -59,16 +59,16 @@ export default function Service() {
                         {/* Service Card 2 */}
                         <div className="bg-white rounded-lg shadow-md overflow-hidden">
                             <img
-                                src="https://image2.jdomni.in/banner/13062021/D6/5F/CE/B4C7D9B03A9B5D1E42A342ADFA_1623559835587.png?output-format=webp"
-                                alt="Rice Flour Grinding"
+                                src="https://example.com/path-to-service2.png"
+                                alt="Party Makeup"
                                 className="w-full h-64 object-cover"
                             />
                             <div className="p-6 text-center">
                                 <h3 className="text-xl font-medium text-gray-800 mb-2">
-                                    Rice Flour Grinding
+                                    Party Makeup
                                 </h3>
                                 <p className="text-gray-700 text-base">
-                                    Our rice flour grinding service is designed to deliver fresh, finely ground rice flour for cooking and baking purposes. We offer both white and brown rice flour to accommodate different dietary needs.
+                                    For every occasion, we provide glamorous party makeup services that make you stand out. Our artists bring out the best in you with the latest trends.
                                 </p>
                             </div>
                         </div>
@@ -76,16 +76,16 @@ export default function Service() {
                         {/* Service Card 3 */}
                         <div className="bg-white rounded-lg shadow-md overflow-hidden">
                             <img
-                                src="https://image3.jdomni.in/banner/13062021/31/42/9E/177EC6129A5733A103786C1D82_1623559891105.png?output-format=webp"
-                                alt="Spice Grinding"
+                                src="https://example.com/path-to-service3.png"
+                                alt="Professional Courses"
                                 className="w-full h-64 object-cover"
                             />
                             <div className="p-6 text-center">
                                 <h3 className="text-xl font-medium text-gray-800 mb-2">
-                                    Spice Grinding
+                                    Professional Makeup Courses
                                 </h3>
                                 <p className="text-gray-700 text-base">
-                                    We offer a range of spice grinding services to provide freshly ground spices. Whether you're looking for traditional spice blends or custom mixes, we can cater to your needs with precision.
+                                    Learn the art of makeup from the experts at BMU Academy. We offer courses for beginners and professionals, designed to enhance your skills and open career opportunities.
                                 </p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ export default function Service() {
                         About Us
                     </h2>
                     <p className="text-center text-lg text-gray-700">
-                        Bappa Flour Mill has been a trusted name in flour grinding services for over 25 years. Our commitment to quality and customer satisfaction has made us a leader in the industry. We use the latest technology and processes to ensure the highest standards in all of our services.
+                        BMU Makeup Studio & Academy is a leader in the beauty industry with over a decade of experience. We provide top-notch makeup services and professional training to aspiring artists.
                     </p>
                 </div>
             </section>
@@ -112,10 +112,10 @@ export default function Service() {
                         Why Choose Us
                     </h2>
                     <ul className="list-disc list-inside text-lg text-gray-700">
-                        <li>State-of-the-art grinding equipment for high-quality results</li>
-                        <li>Customized grinding services tailored to your needs</li>
-                        <li>Over 25 years of experience in the industry</li>
-                        <li>Competitive pricing and excellent customer service</li>
+                        <li>Certified professional makeup artists</li>
+                        <li>State-of-the-art studio and training facilities</li>
+                        <li>Comprehensive makeup courses for all levels</li>
+                        <li>Dedicated to enhancing your beauty and skills</li>
                     </ul>
                 </div>
             </section>
@@ -130,21 +130,21 @@ export default function Service() {
                         {/* Gallery Images */}
                         <div className="bg-white rounded-lg shadow-md overflow-hidden">
                             <img
-                                src="https://image3.jdomni.in/banner/13062021/5E/6C/B1/907283F73CF3A91AE5E48B73D9_1623560748422.png?output-format=webp"
+                                src="https://example.com/path-to-gallery1.png"
                                 alt="Gallery Image 1"
                                 className="w-full h-64 object-cover"
                             />
                         </div>
                         <div className="bg-white rounded-lg shadow-md overflow-hidden">
                             <img
-                                src="https://image3.jdomni.in/banner/13062021/30/2C/2A/3454AD8DCE9065A3120DD5D204_1623560724512.png?output-format=webp"
+                                src="https://example.com/path-to-gallery2.png"
                                 alt="Gallery Image 2"
                                 className="w-full h-64 object-cover"
                             />
                         </div>
                         <div className="bg-white rounded-lg shadow-md overflow-hidden">
                             <img
-                                src="https://image3.jdomni.in/banner/13062021/80/84/CF/3D3E60C1C36703344EEFCF8886_1623560698750.png?output-format=webp"
+                                src="https://example.com/path-to-gallery3.png"
                                 alt="Gallery Image 3"
                                 className="w-full h-64 object-cover"
                             />
