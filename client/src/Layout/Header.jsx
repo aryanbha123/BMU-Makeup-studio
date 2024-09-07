@@ -13,15 +13,15 @@ export default function Header() {
     return (
         <>
             <nav className='flex lg:pl-12 pl-5 items-start py-5 justify-between' >
-                <div className='font-extrabold font-[futura now headline]' >
-                    <span style={{ fontSize: "29px", lineHeight: "1rem", textTransform: "uppercase" }} >BMU <br /> Make Up <br /> Studio</span>
+                <div className='font-extrabold relative h-[68px] w-full font-[futura now headline]' >
+                    <span className={`${fixed ? 'fixed z-50 ' : 'absolute z-50'}`} style={{ fontSize: "29px", lineHeight: "1.6rem", textTransform: "uppercase" }} >BMU <br /> Make Up <br /> Studio</span>
                 </div>
                 <div className='flex gap-16  font-[Helvetica Now Text]' >
                     <Link to={"/"}  className='cursor-pointer lg:block hidden font-medium font-[Raleway] text-sm mt-3'>Home</Link>
                     <Link to={"/about"}  className='cursor-pointer lg:flex hidden font-medium font-[Raleway] text-sm mt-3'>About</Link>
                     <Link to={"/service"}  className='cursor-pointer lg:flex hidden font-medium font-[Raleway] text-sm mt-3'>Services</Link>
                     <Link to={"/contact"}  className='cursor-pointer lg:flex hidden font-medium font-[Raleway] text-sm mt-3'>Contact</Link>
-                    <div className={`${fixed ? 'mr-5' : ''} cursor-pointer mt-3 lg:h-[50px] lg:mr-0  lg:w-[50px] relative right-4 z-50 flex flex-col gap-1 pt-1`} onClick={toggleNav}>
+                    <div className={`${fixed ? 'mr-7' : ''} cursor-pointer mt-3 lg:h-[50px] lg:mr-0  lg:w-[50px] relative right-4 z-50 flex flex-col gap-1 pt-1`} onClick={toggleNav}>
                         <div className={`${fixed ? 'rotate-[43deg]  fixed ' : ''} transition-all duration-500 w-7 h-[2px] bg-black`}></div>
                         <div className={`${fixed ? '-rotate-[46deg] fixed ' : ''} transition-all duration-500 w-7 h-[2px] bg-black`}></div>
                     </div>
@@ -46,12 +46,16 @@ export default function Header() {
                         </div>
                     </div>
 
-                    <div className="lg:hidden flex">
-                        <div className='flex text-2xl font-medium flex-col ' >
-                            <Link>Home</Link>
-                            <Link>About</Link>
-                            <Link>Contact</Link>
-                            <Link>Services</Link>
+                    <div className="lg:hidden flex flex-col justify-between">
+                        <div className='flex text-2xl mt-[140px] items-center px-10 w-full  flex-col ' >
+                            <Link className='w-full text-center px-5 my-1 py-1 rounded-[20px] bg-[#e1e1ed]' >Home</Link>
+                            <Link className='w-full text-center px-5 my-1 py-1 rounded-[20px]' >About</Link>
+                            <Link className='w-full text-center px-5 my-1 py-1 rounded-[20px]' >Contact</Link>
+                            <Link className='w-full text-center px-5 my-1 py-1 rounded-[20px]' >Services</Link>
+                        </div>
+                        <div className='fixed bottom-10 flex justify-center w-full gap-5' >
+                            <a className='bg-black px-6 flex justify-center items-center py-2 rounded-[20px] text-white' href="">Join Achademy</a>
+                            <a className='bg-black px-6 flex justify-center items-center py-2 rounded-[20px] text-white' href="">Book Appointment</a>
                         </div>
                     </div>
                 </div>
