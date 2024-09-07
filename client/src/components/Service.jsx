@@ -7,7 +7,7 @@ export default function Service() {
         <div>
 
             {/* Hero Section */}
-            <motion.div
+            {/* <motion.div
                 className="relative w-full h-[320px]" id="home"
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ export default function Service() {
                         </a>
                     </div>
                 </motion.div>
-            </motion.div>
+            </motion.div> */}
 
 
             <div className="bg-white">
