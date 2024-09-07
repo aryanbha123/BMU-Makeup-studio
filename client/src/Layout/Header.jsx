@@ -21,7 +21,7 @@ export default function Header() {
                     <Link to={"/about"}  className='cursor-pointer lg:flex hidden font-medium font-[Raleway] text-sm mt-3'>About</Link>
                     <Link to={"/service"}  className='cursor-pointer lg:flex hidden font-medium font-[Raleway] text-sm mt-3'>Services</Link>
                     <Link to={"/contact"}  className='cursor-pointer lg:flex hidden font-medium font-[Raleway] text-sm mt-3'>Contact</Link>
-                    <div className='cursor-pointer mt-3 h-[50px] w-[50px] relative right-4 z-50 flex flex-col gap-1 pt-1' onClick={toggleNav}>
+                    <div className={`${fixed ? 'mr-5' : ''} cursor-pointer mt-3 lg:h-[50px] lg:mr-0  lg:w-[50px] relative right-4 z-50 flex flex-col gap-1 pt-1`} onClick={toggleNav}>
                         <div className={`${fixed ? 'rotate-[43deg]  fixed ' : ''} transition-all duration-500 w-7 h-[2px] bg-black`}></div>
                         <div className={`${fixed ? '-rotate-[46deg] fixed ' : ''} transition-all duration-500 w-7 h-[2px] bg-black`}></div>
                     </div>
