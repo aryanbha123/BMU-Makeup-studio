@@ -47,7 +47,7 @@ export default function Home() {
 
       {/* Gallery Section */}
       <section>
-        <div className="py-4 px-4 mt-5 mx-auto max-w-screen-xl sm:py-4">
+        <div className="py-4 px-4 mt-2 mx-auto max-w-screen-xl sm:py-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
             {/* First Column */}
             <motion.div
