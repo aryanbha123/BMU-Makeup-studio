@@ -98,7 +98,7 @@ const BMUSection = () => {
             </div>
           </div>
           <img
-            src="bmu"
+            src="{bmu}"
             alt="Makeup Academy"
             className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
           />
