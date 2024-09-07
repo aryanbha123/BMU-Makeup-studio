@@ -3,9 +3,11 @@ import { Divider } from '@mui/material'
 import { motion } from 'framer-motion'
 import Slider from '../components/Slider';
 import Service from '../components/Service';
+import EnterpriseSection from '../components/EnterPriseSection';
+import Map from '../components/Map';
 
 export default function Home() {
-  // Animation Variants
+
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
@@ -18,7 +20,7 @@ export default function Home() {
 
   return (
     <>
-      {/* Hero Section */}
+
       <div className='lg:px-8 px-4 w-full lg:mt-0 mt-[40px]'>
         <motion.h2
           className='w-full lg:mb-3 mb-6 md:text-[190px] text-5xl whitespace-nowrap text-wrap font-[futura now headline] font-bold'
@@ -28,9 +30,11 @@ export default function Home() {
             lineHeight: "0.85em",
             marginBottom: "0px"
           }}
-          initial="hidden"
-          animate="visible"
-          variants={fadeIn}
+
+          initial={{ y: 100 }}
+          animate={{ y: 0 }}
+          transition={{ duration: .5 }}
+        // variants={fadeIn}
         >
           Unveil Your Beauty
         </motion.h2>
@@ -38,7 +42,7 @@ export default function Home() {
 
       {/* Gallery Section */}
       <section>
-        <div className="py-4 px-5 mx-auto max-w-screen-xl sm:py-4">
+        <div className="py-4 px-4 mt-5 mx-auto max-w-screen-xl sm:py-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
             {/* First Column */}
             <motion.div
@@ -134,13 +138,10 @@ export default function Home() {
 
 
       {/* Map section */}
-
-      <div className="lg:px-12 px-5">
-        <div className='max-w-[100%] w-[100vw] h-[60vh] '><div id="my-map-display" style={{ height: "100%", width: "100%", maxWidth: "100%" }}><iframe style={{ height: "100%", width: "100%", border: "0", frameborder: "0" }} src="https://www.google.com/maps/embed/v1/place?q=BMU+Makeup+studio+Dehradun&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="my-codefor-googlemap" href="https://www.bootstrapskins.com/themes" id="grab-map-authorization">Visit Us</a>
-        </div>
-      </div>
+      <Map />
       <Slider />
-      <Service/>
+      <EnterpriseSection />
+      <Service />
     </>
   )
 }

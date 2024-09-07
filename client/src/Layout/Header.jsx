@@ -3,9 +3,10 @@ import { Hamburger } from '../Utility/Hamburger'
 import { Link } from 'react-router-dom'
 import { IconButton } from '@mui/material'
 import { Close } from '@mui/icons-material'
+import img from './image.png'
 export default function Header() {
 
-    const [fixed , setFixed] = useState(false);
+    const [fixed, setFixed] = useState(false);
     const toggleNav = () => {
         setFixed((prev) => !prev)
     }
@@ -21,13 +22,28 @@ export default function Header() {
                     <a className='lg:block hidden font-medium font-[Raleway] text-sm mt-3' href="">Services</a>
                     <a className='lg:block hidden font-medium font-[Raleway] text-sm mt-3' href="">Contact</a>
                     <div className='cursor-pointer mt-3  relative right-4 z-50 flex flex-col gap-1 justify-center' onClick={toggleNav}>
-                        <div className={`${fixed ? 'rotate-[43deg]  absolute ' : ''} transition-all duration-500 w-7 h-[2px] bg-black`}></div>
-                        <div className={`${fixed ? '-rotate-[46deg] absolute ' : ''} transition-all duration-500 w-7 h-[2px] bg-black`}></div>
+                        <div className={`${fixed ? 'rotate-[43deg]  fixed ' : ''} transition-all duration-500 w-7 h-[2px] bg-black`}></div>
+                        <div className={`${fixed ? '-rotate-[46deg] fixed ' : ''} transition-all duration-500 w-7 h-[2px] bg-black`}></div>
                     </div>
                 </div>
 
-                <div className={`${!fixed ?  'translate-x-full': 'translate-x-0'} transition-all duration-200 fixed top-0 left-0 w-full h-[100vh] bg-[#f7f7f7] z-40`} >
-                    <div className="lg:flex">
+                <div className={`${!fixed ? 'translate-x-full' : 'translate-x-0'} transition-all duration-200 fixed top-0 left-0 w-full h-[100vh] bg-[#f7f7f7] z-40`} >
+                    <div className="lg:flex justify-between px-5">
+                        <div className='lg:flex items-center h-[100vh]' >
+                            <img src={img} alt="" />
+                        </div>
+                        <div className="flex-1 relative flex flex-col items-end mt-20 gap-2  text-6xl">
+                            <Link className='hover:text-red-300 transition-all duration-150' >Home</Link>
+                            <Link className='hover:text-red-300 transition-all duration-150' >About</Link>
+                            <Link className='hover:text-red-300 transition-all duration-150' >Services</Link>
+                            <Link className='hover:text-red-300 transition-all duration-150' >Contact</Link>
+                            <Link className='hover:text-red-300 transition-all duration-150' >Visit Us</Link>
+
+                            <div className='gap-5 flex absolute bottom-28' >
+                                <button className="rounded-md bg-black -600 px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-black -500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black -600" >Book Appointment</button>
+                                <button className="rounded-md bg-black -600 px-3.5 py-2.5 text-lg font-semibold text-white shadow-sm hover:bg-black -500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black -600">Join Achademy</button>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="lg:hidden"></div>

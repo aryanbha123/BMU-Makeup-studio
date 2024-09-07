@@ -15,6 +15,10 @@ body {
     background: none !important;
 }
 
+
+*{
+    font-family: 'futura now headline';
+}
 /* img {
     max-width: none
 } */
