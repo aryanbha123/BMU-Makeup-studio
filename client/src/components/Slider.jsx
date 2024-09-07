@@ -6,10 +6,17 @@ import "slick-carousel/slick/slick-theme.css";
 import { Divider } from '@mui/material';
 import m1 from '../assets/m1.jpg';
 import m2 from '../assets/m2.jpg';
+import m3 from '../assets/m3.jpg';
+import m4 from '../assets/m4.jpg';
+import m5 from '../assets/m5.jpg';
+import m6 from '../assets/m6.jpg';
 
 export default function SliderComponent() {
-    // Slider settings for slick
     const settings = {
+        speed:300,
+        autoplay: true,          // Enables autoplay
+        autoplaySpeed: 2000,     
+        arrows:true,
         centerMode: true,
         centerPadding: '20px',
         dots: true,
@@ -52,25 +59,25 @@ export default function SliderComponent() {
         },
         {
             id: 3,
-            image: m1,
+            image: m3,
             title: "Project 3",
             description: "Description for project 3."
         },
         {
             id: 4,
-            image: m1,
+            image: m4,
             title: "Project 4",
             description: "Description for project 4."
         },
         {
             id: 5,
-            image: m1,
+            image: m5,
             title: "Project 5",
             description: "Description for project 5."
         },
         {
             id: 6,
-            image: m1,
+            image: m6,
             title: "Project 6",
             description: "Description for project 6."
         }
