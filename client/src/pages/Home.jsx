@@ -143,9 +143,9 @@ export default function Home() {
 
 
       {/* Map section */}
-      <Map />
       <Slider />
       <EnterpriseSection />
+      <Map />
       <Service />
     </>
   )
