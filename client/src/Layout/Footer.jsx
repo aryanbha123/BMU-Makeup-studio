@@ -31,9 +31,8 @@ export default function Footer() {
                         <h2 className="text-xl font-bold mb-3">Connect With Us</h2>
                         <ul className="space-y-2">
                             <li><a href="#" className="hover:text-blue-400">Facebook</a></li>
-                            <li><a href="#" className="hover:text-blue-400">Instagram</a></li>
+                            <li><a href="https://www.instagram.com/bhawnasinghmakeup/" className="hover:text-blue-400">Instagram</a></li>
                             <li><a href="#" className="hover:text-blue-400">WhatsApp</a></li>
-                            <li><a href="#" className="hover:text-blue-400">YouTube</a></li>
                         </ul>
                     </div>
                 </div>
