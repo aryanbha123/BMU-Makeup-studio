@@ -12,7 +12,7 @@ export default function Header() {
     }
     return (
         <>
-            <nav className='flex lg:pl-12 pl-5 items-start py-5 justify-between' >
+            <nav className='flex relative  lg:pl-12 pl-5 items-start py-5 justify-between' >
                 <div className='font-extrabold relative h-[68px] w-full font-[futura now headline]' >
                     <span className={`${fixed ? 'fixed z-50 ' : 'absolute z-50'}`} style={{ fontSize: "29px", lineHeight: "1.6rem", textTransform: "uppercase" }} >BMU <br /> Make Up <br /> Studio</span>
                 </div>
