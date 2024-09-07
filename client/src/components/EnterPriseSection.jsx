@@ -1,4 +1,5 @@
 import React from "react";
+import bmu from "../assets/IMG-20240907-WA0006.jpg";
 
 const BMUSection = () => {
   return (
@@ -97,7 +98,7 @@ const BMUSection = () => {
             </div>
           </div>
           <img
-            src="https://images.unsplash.com/photo-1612221738145-5f3b1d0fda0f?ixlib=rb-4.0.3&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxfHxtYWtlcCUyMGFjYWRlbXl8ZW58MHx8fHwxNjkxOTAxOTQ4fDA&auto=format&fit=crop&w=800&q=60"
+            src="bmu"
             alt="Makeup Academy"
             className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
           />
