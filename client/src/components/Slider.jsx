@@ -77,7 +77,7 @@ export default function SliderComponent() {
     ];
 
     return (
-        <div className="w-full  my-10 overflow-x-hidden h-[550px]">
+        <div className="w-full  my-10 overflow-x-hidden h-[468px]">
             <div className="lg:px-10 px-4">
                 <h2 className="text-4xl pb-2 font-bold text-start">Our Work</h2>
                 <Divider />
@@ -86,7 +86,7 @@ export default function SliderComponent() {
                 {cards.map((card) => (
                     <motion.div
                         key={card.id}
-                        className="my-3 px-5 relative group overflow-hidden"
+                        className="my-3 pr-5 relative group overflow-hidden"
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5 }}
