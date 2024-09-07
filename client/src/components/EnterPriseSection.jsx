@@ -1,5 +1,5 @@
 import React from "react";
-import img from './enterprise.png'
+import bmu from "../assets/IMG-20240907-WA0006.jpg";
 
 const BMUSection = () => {
   return (
@@ -11,7 +11,7 @@ const BMUSection = () => {
               <h2 className="text-3xl font-semibold leading-7 text-black -600">
                 Master the Art of Makeup
               </h2>
-              <p className="mt-2 text-5xl font-bold  text-black ">
+              <p className="mt-2 text-5xl font-bold text-black">
                 BMU Makeup Studio & Academy
               </p>
               <p className="mt-6 text-lg leading-8 text-black">
@@ -98,9 +98,9 @@ const BMUSection = () => {
             </div>
           </div>
           <img
-            src={img}
+            src={bmu}
             alt="Makeup Academy"
-            className="w-full max-w-none object-cover h-[600px] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+            className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
           />
         </div>
       </div>
