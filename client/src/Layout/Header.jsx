@@ -54,8 +54,8 @@ export default function Header() {
                             <Link className='w-full text-center px-5 my-1 py-1 rounded-[20px]' >Services</Link>
                         </div>
                         <div className='fixed bottom-20 flex justify-center w-full gap-5' >
-                            <a className='bg-black px-6 flex justify-center items-center py-2 rounded-[20px] text-white hover:text-red-300 transition-all duration-150' href="">Join Achademy</a>
-                            <a className='bg-black px-6 flex justify-center items-center py-2 rounded-[20px] text-white hover:text-red-300 transition-all duration-150' href="">Book Appointment</a>
+                            <a className='bg-black px-6 flex justify-center items-center py-2 rounded-[20px] text-white' href="">Join Achademy</a>
+                            <a className='bg-black px-6 flex justify-center items-center py-2 rounded-[20px] text-white' href="">Book Appointment</a>
                         </div>
                     </div>
                 </div>
