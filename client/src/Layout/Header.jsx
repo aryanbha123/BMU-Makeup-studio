@@ -39,9 +39,9 @@ export default function Header() {
                             <Link className='hover:text-red-300 transition-all duration-150' >Contact</Link>
                             <Link className='hover:text-red-300 transition-all duration-150' >Visit Us</Link>
 
-                            <div className='gap-5 flex absolute bottom-28 ' >
-                                <button className="rounded-md bg-black -600 px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-black -500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black -600" >Book Appointment</button>
-                                <button className="rounded-md bg-black -600 px-3.5 py-2.5 text-lg font-semibold text-white shadow-sm hover:bg-black -500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black -600">Join Achademy</button>
+                            <div className='gap-5 flex absolute bottom-28'>
+                                <button className="rounded-md bg-black px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-black-500 hover:text-red-300 transition-all duration-150 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black-600">Book Appointment</button>
+                                <button className="rounded-md bg-black px-3.5 py-2.5 text-lg font-semibold text-white shadow-sm hover:bg-black-500 hover:text-red-300 transition-all duration-150 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black-600">Join Academy</button>
                             </div>
                         </div>
                     </div>
